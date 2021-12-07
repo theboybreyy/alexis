@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alexis.css">
+    <script src="/images/alexis.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+    <title>ALEXIS</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Alexis</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Packages</a></li>
+                <li><a href="buju.html">Explore</a></li>
+            </ul>
+        </nav>
+
+        <a href="contact.html" class="cta"><button>Contact</button></a>
+    </header>
+    <div class="banku" style="position: relative;">
+        <div class="custom-shape-divider-bottom-1637019703" style="position: relative;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+    </div>
+</div>
+<div class="search-box wrapper">
+    <input type="text" name="" placeholder="Search From Alexis..." class="search-txt">
+    <a href="#" class="search-btn">
+        <img src="/images/search_black_24dp.svg" alt="">
+    </a>
+</div>
+<section class="hero">
+
+    <div class="card_container_tag">
+        <div class="card">
+            <div class="tag">
+                <h2>Events</h2>
+            </div>
+            <div class="content-in-tag">
+                <h3>Thrills</h3>
+                <p>Over millions of support and attention gained from the world, ALEXIS is here to stay!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="tag">
+                <h2>&eacute;xplore</h2>
+            </div>
+            <div class="content-in-tag">
+                <h3>Fantasy</h3>
+                <p>Join the trusted team for the best travelling and vacation experiences this summer!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="tag">
+                <h2>Music</h2>
+            </div>
+            <div class="content-in-tag">
+                <h3>Record</h3>
+                <p>Become apart of the lofty <a href="#">Billionare Capitol</a> and transmit your chunes to the world!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const wrapper = document.querySelector('.wrapper');
+    div = wrapper.querySelector('.wrapper');
+
+    function ondrag(){
+        let getSyle = window.getComputedStyle(wrapper);
+    }
+
+    div.addEventListerner('mousedown', ()=> {
+        div.addEventListerner('mousemove', ondrag)
+    });
+
+
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3kit-timeline/2.0.1/d3kit-timeline.min.js" integrity="sha512-XlRdX+KOe/69pGHcQat0YF1juRHe2TNewB7QedwJ3BxPKvOEss8zvLnGFVLCEST71CIUgP4GaANyl6IgaUB+zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

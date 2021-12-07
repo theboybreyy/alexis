@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="web.css">
+    <script src="/Web App Dev/Pics/web.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>ALEXIS</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Alexis</a>
+
+        <nav>
+            <ul class="primary-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="/images/buju.html">Services</a></li>
+                <li class=""><a href="/Web App Dev/Pics/register.html">Register</a></li>
+                <li class="active"><a href="#">Subscription Policies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Be a<br>Better version of yourself</h1>
+    </section>
+
+    <div class="overlay">
+        <div class="left stagger">
+            <h2>It's so easy</h2>
+            <p class="subhead">Pre-Order, Save or Book from the best Packages made for you!</p>
+
+            <div class="cards">
+                <div class="card">
+                    <strong>Subscribe for $7.99 Per Month</strong>
+                    <p>This is Recommended for you.<br> Popular space option clients choose at a very affordable rate.</p>
+                    <a href="/Web App Dev/Pics/register.html" class="cta">Subscribe Now</a>
+                </div>
+
+                <div class="card">
+                    <strong>Subscribe for $89.99 Per Annum</strong>
+                    <p>The most economical Package for You <br>Choose the best suite for your lifetime in a year. <br>As you enjoy thrilling, amazing and fantastic stuff.</p>
+                    <a href="/Web App Dev/Pics/register.html" class="pay-once">Pay Once</a>
+                </div>
+            </div>
+        </div>
+        <div class="middle stagger">
+            <ul class="secondary">
+                <li><a href="web.html">Home</a></li>
+                <li><a href="/images/buju.html">Services</a></li>
+                <li class="faq"><a href="#">FAQ</a></li>
+                <li><a href="/Web App Dev/Pics/register.html">Contact</a></li>
+            </ul>
+
+            <div class="social-nav">
+                <a href="#" class="twitter"><img src="/Web App Dev/Pics/twitter.svg" alt=""></a>
+                <a href="#" class="instagram"><img src="/Web App Dev/Pics/instagram.svg" alt=""></a>
+                <a href="#" class="linkedin"><img src="/Web App Dev/Pics/linkedin.svg" alt=""></a>
+                <a href="#" class="facebook"><img src="/Web App Dev/Pics/facebook.svg" alt=""></a>
+
+            </div>
+        </div>
+        <div class="right stagger">
+            <img src="/Web App Dev/Pics/x.svg" alt="" class="exit">
+        </div>
+    </div>
+
+    <div class="contact-cta">
+        <div class="title">
+            
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
+    <script>
+        let open = document.querySelector('.active');
+        let close = document.querySelector('.exit');
+        let tl = gsap.timeline();
+
+        tl.to('.overlay', {opacity: 1, x:0, scale:1, pointerEvents:'auto', duration: .3} )
+
+        tl.to('.stagger', {x:0, opacity:1, stagger: .3}, "-=.6")
+        tl.pause();
+        open.addEventListener('click', ()=>{
+            tl.play();
+        })
+        close.addEventListener('click', ()=>{
+            tl.reverse();
+        })
+
+
+    </script>
+</body>
+</html>
