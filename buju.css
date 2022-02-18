@@ -1,4 +1,4 @@
-/
+
 *{
     margin: 0;
     padding: 0;
@@ -148,6 +148,7 @@ nav ul li a:hover::after{
     margin: 15px;
     overflow: visible;
 }
+
 /*.social-icon a{
     text-decoration: none;
 }
