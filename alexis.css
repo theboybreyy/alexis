@@ -21,7 +21,7 @@ header{
     width: 100%;
     align-items: center;
     background-color: #24252a;
-    font-faily: "Montserrat"
+    font-faily: "Montserrat", sans-serif;
 }
 li, a, button{
     font-family: 'Poppins';
