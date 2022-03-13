@@ -20,7 +20,8 @@ header{
     height: 25%;
     width: 100%;
     align-items: center;
-    background-color: #24252a
+    background-color: #24252a;
+    font-faily: "Montsearrt"
 }
 li, a, button{
     font-family: 'Poppins';
