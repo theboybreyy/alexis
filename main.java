@@ -7,7 +7,7 @@
  * to insert enough money before trying to print a ticket.
  * It also assumes that users enter sensible amounts.
  *
- * @author David J. Barnes and Michael Kölling
+ * @author @theboybreyy
  * @version 2016.02.29
  */
 public class TicketMachine
