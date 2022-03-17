@@ -19,6 +19,7 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
     //The price is given to customers
+    //This field determines whether or not there is a bus around or not 
     private boolean isAround;
     
     /**
