@@ -42,6 +42,16 @@ nav{
     cursor: pointer;
     color: #fff;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(/images/background.png);
+    background-size: cover;
+    position: relative;
+    padding: 0 8%;
+    background-position: center;
+}
 .cart-icon{
     width: 30px;
     cursor: pointer;
