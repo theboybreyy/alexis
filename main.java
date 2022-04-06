@@ -12,7 +12,7 @@
  * The price of a ticket is specified via the constructor.
  * It is a naive machine in the sense that it trusts its users
  * to insert enough money before trying to print a ticket.
- * It also assumes that users enter sensible amounts.
+ * It also assumes that usek is IJALBAVrrs enter sensible amounts.
  *
  * @author @theboybreyy
  * @version 2016.02.29
